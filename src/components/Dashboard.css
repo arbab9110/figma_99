@@ -1,0 +1,115 @@
+.dashboard {
+    padding: 20px;
+    flex: 1;
+    width: 320px;
+    height: 100%;
+    background-color: rgb(213, 209, 201);
+    position: relative;
+    top: -0px;
+    right: -0px;
+  }
+  
+  .dashboard h1 {
+    font-size: 20px;
+    color: #333;
+    position: relative;
+    top: -5px;
+  }
+  
+  .dashboard p {
+    color: #6c757d;
+    margin-bottom: 20px;
+    position: relative;
+    top: -9px;
+  }
+  
+  .chart-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 280px;
+    height: 350px;
+  }
+  
+  .chart-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 25px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+  
+  .chart-item {
+    height: 100%;
+  }
+
+  
+  
+  .chart-legend {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    position: relative;
+    top: 25px;
+  }
+  
+  .chart-legend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .chart-legend .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .dot.blue {
+    background-color: blue;
+  }
+  
+  .dot.green {
+    background-color: green;
+  }
+  
+  .dot.red {
+    background-color: red;
+  }
+  
+  .icon.green {
+    color: green;
+    position: relative;
+    top: -1px;
+    left: 10px;
+
+  }
+  
+  .icon.red {
+    color: red;
+    margin-left: 5px;
+    top: -1px;
+    left: 10px;
+  }
+  .toda{
+    width: 50px;
+    background-color: rgb(223, 214, 214);
+    text-align: center;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }

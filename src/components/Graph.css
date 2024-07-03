@@ -1,0 +1,177 @@
+.graph {
+  background-color: rgb(255, 254, 254);
+  border-radius: 1px;
+  padding: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0px;
+  left: -0px;
+  width: calc(100% - 320px);
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 20px;
+  position: relative;
+  top: 10px;
+  left: -30px;
+}
+
+.search-input {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 30px;
+  position: relative;
+  top: 10px;
+  left: -30px;
+}
+.available {
+  width: 750px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  position: relative;
+  top: 40px;
+  left: 70px;
+  border-radius: 5px;
+  background-color: rgb(242, 234, 234);
+}
+
+.car-availability,
+.live-car-status,
+.earning-summary {
+  margin-top: 20px;
+}
+.car-head {
+  font-size: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.availability-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: -5px;
+  left: 20px;
+}
+
+.car-select,
+.date-picker,
+.time-picker,
+.check-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 160px;
+  height: 40px;
+}
+
+.time-picker {
+  display: flex;
+  align-items: center;
+}
+
+.time-picker .time-input {
+  border: none;
+  margin-left: 5px;
+}
+
+.check-button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+.live-div {
+  position: relative;
+  top: 70px;
+  left: 70px;
+  height: 205px;
+  width: 750px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(242, 234, 234);
+}
+.liv-head {
+  font-size: 20px;
+  position: relative;
+  top: -2px;
+  left: 4px;
+}
+.status-table {
+  border-collapse: collapse;
+  position: relative;
+  top: -0px;
+  left: 3px;
+  width: 750px;
+}
+
+.status-table th,
+.status-table td {
+  padding: 3px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.status.completed {
+  color: green;
+  position: relative;
+  top: 10px;
+}
+
+.status.pending {
+  color: blue;
+  position: relative;
+  top: 10.5px;
+}
+
+.status.in-route {
+  color: red;
+  position: relative;
+  top: 10.5px;
+}
+
+.details-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.earning-summary {
+  margin-top: 20px;
+}
+.summer-head {
+  font-size: 20px;
+  position: relative;
+  top: -0px;
+}
+.summary {
+  width: 750px;
+  height: 270px;
+  position: relative;
+  top: 90px;
+  left: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(242, 234, 234);
+  border-radius: 3px;
+}
